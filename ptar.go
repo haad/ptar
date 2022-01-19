@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/zgiles/ptar/pkg/index"
-	"github.com/zgiles/ptar/pkg/ptar"
-	"github.com/zgiles/ptar/pkg/scanner"
+	"github.com/haad/ptar/pkg/index"
+	"github.com/haad/ptar/pkg/ptar"
+	"github.com/haad/ptar/pkg/scanner"
 )
 
 type rootConfig struct {

@@ -8,9 +8,9 @@ import (
 	"fmt"
 
 	"github.com/pierrec/lz4"
-	index "github.com/zgiles/ptar/pkg/index"
-	// "github.com/zgiles/ptar/pkg/scanner"
-	"github.com/zgiles/ptar/pkg/writecounter"
+	index "github.com/haad/ptar/pkg/index"
+	// "ptar/pkg/scanner"
+	"github.com/haad/ptar/pkg/writecounter"
 
 	// xz "github.com/remyoudompheng/go-liblzma"
 	"io"
