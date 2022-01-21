@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/pierrec/lz4"
+	"github.com/pierrec/lz4/v4"
 	index "github.com/haad/ptar/pkg/index"
 	// "ptar/pkg/scanner"
 	"github.com/haad/ptar/pkg/writecounter"
@@ -164,7 +164,7 @@ func (arch *Archive) tarChannel(threadnum int) {
 	case "":
 		r = f
 	default:
-		panic("Not implemented")
+		panic("Compression type"+arch.Compression+" not implemented.")
 	}
 
 	if arch.Index {
